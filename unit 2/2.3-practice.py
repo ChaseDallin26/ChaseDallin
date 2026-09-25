@@ -1,5 +1,12 @@
-num = input ( "what do you like")
+def greet():
+    print("HEllo, world!")
 
-num = float( num) 
+def greet(name):
+    print ("hello " + name)
 
-print ( num * 3)
+greet ("chase")
+
+def add(a, b): 
+    print(a+b)
+
+add (10,5)
