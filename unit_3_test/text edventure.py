@@ -40,7 +40,7 @@ folder = os.path.dirname(os.path.abspath(__file__))
 
 music_file_9 = os.path.join(folder, "OST_Lord_Of_The_Rings_The_fellowship_of_the_rings_-_The_Bridge_Of_Khazad_Dum_(mp3.pm).mp3")
 
-name = input ("Enter your name before you start\n>")
+name = input ("Enter your name before you start.\n>")
 def start_adventure():
     print (name + " is sitting and thinking to themself wondering what to do today")
     print ("1. Watch a movie")
