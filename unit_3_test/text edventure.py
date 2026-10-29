@@ -1,6 +1,7 @@
 import os
 import pygame
 import time
+import turtle 
 
 pygame.mixer.init()
 
@@ -387,7 +388,7 @@ def outside_4():
 
     if choice == "1":
         print(" you come face to face with darth vader and he force chokes you")
-        time.sleep(3)
+        time.sleep()
         pygame.mixer.music.load(music_file_5)
         pygame.mixer.music.play()
         play = input ("do you want to play again?")
@@ -417,7 +418,7 @@ def found_durian():
     choice = input (">")
 
     if choice == "1":
-        time.sleep(3)
+        time.sleep()
         pygame.mixer.music.load(music_file_2)
         pygame.mixer.music.play()
         print(" her hear a guy say heres jonny and than things fade to black")
@@ -429,7 +430,7 @@ def found_durian():
             pygame.mixer.music.stop()
             print ("Have a nice day")
     elif choice == "2":
-        time.sleep(3)
+        time.sleep()
         pygame.mixer.music.load(music_file_4)
         pygame.mixer.music.play()
         print(" you see a small doll with a knife that is laughing and vision begain to fade")
@@ -442,7 +443,7 @@ def found_durian():
             print ("Have a nice day")
     
     elif choice == "3":
-        time.sleep(3)
+        time.sleep()
         pygame.mixer.music.load(music_file_3)
         pygame.mixer.music.play()
         print(" and see a yellow bunny with a knfe in his hads and says i will always come back")
@@ -1032,1082 +1033,1082 @@ Action, SciFi/Fantasy, Suspense/Thriller"
 def watch_movie_4():
     pygame.mixer.music.load(music_file_6)
     pygame.mixer.music.play()
-    text_4 = """Director
+    text_4 = "Director\
 Mel Brooks\
 Writers\
-Mel Brooks
-written by &
-Thomas Meehan
-written by &
-Ronny Graham
-written by
-Cast
-(in credits order) verified as complete
-Mel Brooks
-Mel Brooks
-President Skroob/Yogurt
-John Candy at an event for The 60th Annual Academy Awards (1988)
-John Candy
-Barf
-Rick Moranis in Splitting Heirs (1993)
-Rick Moranis
-Dark Helmet
-Bill Pullman in Independence Day: Resurgence (2016)
-Bill Pullman
-Lone Starr
-Daphne Zuniga
-Daphne Zuniga
-Princess Vespa
-Dick Van Patten in Eight Is Enough (1977)
-Dick Van Patten
-King Roland
-George Wyner in Wildcats (1986)
-George Wyner
-Colonel Sandurz
-Michael Winslow
-Michael Winslow
-Radar Technician
-Joan Rivers in The Apprentice (2004)
-Joan Rivers
-Dot Matrix(voice)
-Lorene Yarnell Jansson
-Lorene Yarnell Jansson
-Dot Matrix(as Lorene Yarnell)
-John Hurt
-John Hurt
-John Hurt
-Sal Viscuso
-Sal Viscuso
-Radio Operator Sergeant Ricco
-Ronny Graham in Spaceballs (1987)
-Ronny Graham
-Minister
-Jim J. Bullock
-Jim J. Bullock
-Prince Valium(as JM J. Bullock)
-Leslie Bevis in Murder, She Wrote (1984)
-Leslie Bevis
-Commanderette Zircon
-Jim Jackman
-Jim Jackman
-Major Asshole
-Mike Pniewski
-Mike Pniewski
-Laser Gunner(as Michael Pniewski)
-Sandy Helberg in The Paragon of Comedy (1983)
-Sandy Helberg
-Dr. Schlotkin
-Stephen Tobolowsky
-Stephen Tobolowsky
-Captain of the Guard
-Jeff MacGregor in Show 123 (1989)
-Jeff MacGregor
-Snotty
-Henry Kaiser
-Magnetic Beam Operator
-Denise Gallup
-Charlene
-Dian Gallup
-Marlene
-Gail Barle
-Waitress
-Dey Young
-Dey Young
-Waitress
-Rhonda Shear
-Rhonda Shear
-Woman in Diner
-Robert Prescott
-Robert Prescott
-Sand Cruiser Driver
-Jack Riley at an event for The Aristocrats (2005)
-Jack Riley
-TV Newsman
-Tom Dreesen
-Tom Dreesen
-Megamaid Guard
-Dom DeLuise, Rudy De Luca, and Rick Lazzarini in Spaceballs (1987)
-Rudy De Luca
-Vinnie(as Rudy DeLuca)
-Tony Griffin
-Prison Guard
-Rick Ducommun
-Rick Ducommun
-Prison Guard
-Ken Olfson in One Day at a Time (1975)
-Ken Olfson
-Head Usher
-Bryan O'Byrne in Bewitched (1964)
-Bryan O'Byrne
-Organist
-Wayne Wilson
-Trucker in Cap
-Ira Miller
-Short Order Cook
-Earl Finn
-Guard with Captain
-Mitchell Bock
-Video Operator
-Tommy Swerdlow
-Tommy Swerdlow
-Troop Leader
-Tim Russ in Crossroads (1986)
-Tim Russ
-Trooper
-Ed Gale
-Ed Gale
-Dink
-Antonio Hoyos
-Dink
-Felix Silla
-Felix Silla
-Dink
-Arturo Gil
-Arturo Gil
-Dink
-Tony Cox at an event for Who's Your Caddy? (2007)
-Tony Cox
-Dink
-John Kennedy Hayden
-Dink
-Dee Booher
-Bearded Lady(as Deanna Booher)
-Johnny Silver
-Johnny Silver
-Caddy Arnold
-Brenda Strong
-Brenda Strong
-Nurse Gretchen
-Dom DeLuise
-Dom DeLuise
-Pizza the Hutt(voice)
-Rest of cast listed alphabetically
-Elaine Ballace
-War Room Tech #1(uncredited)
-Robert Buckingham
-Robert Buckingham
-Wedding Guest(uncredited)
-Corey Burton in Atlantis: The Lost Empire (2001)
-Corey Burton
-Dink(voice) (uncredited)
-John E. Coleman
-Prison Guard(uncredited)
-John Copage
-Wedding Guest(uncredited)
-Dan Cotter
-Wedding Guest(uncredited)
-Bob K. Cummings
-Prison Guard(uncredited)
-Robert Dulaine
-Wedding Guest(uncredited)
-Brent Dunsford
-Wedding Guest(uncredited)
-Rose Dursey
-War Room Tech #2(uncredited)
-Dane Farwell
-Dane Farwell
-Ape #1(uncredited)
-Buddy Gates
-Wedding Guest(uncredited)
-Roy Goldman in M*A*S*H (1972)
-Roy Goldman
-Spaceball(uncredited)
-Camille Hagen
-Woman in Diner(uncredited)
-Phil Hartman
-Phil Hartman
-Dink(voice) (uncredited)
-Fritz Herzog
-Prince Valium Family Member(uncredited)
-Conrad Hurtt
-Conrad Hurtt
-Spaceball Guard(uncredited)
-Richard Karron
-Pizza the Hut(uncredited)
-Rick Lazzarini
-Rick Lazzarini
-Ape #2(uncredited)
-Tress MacNeille
-Tress MacNeille
-Dink(voice) (uncredited)
-Terence Marsh
-Terence Marsh
-Spaceball Drum Beater(uncredited)
-Jeri McBride
-Wedding Guest(uncredited)
-Steve McLean
-Steve McLean
-Movie Crew Member(uncredited)
-Thomas Meehan
-Thomas Meehan
-King Roland's Aide(uncredited)
-Jim Michael
-Diner Patron(uncredited)
-Sam Nickens
-Wedding Guest(uncredited)
-John Paragon
-John Paragon
-Dink(voice) (uncredited)
-Rob Paulsen at an event for Jimmy Neutron: Boy Genius (2001)
-Rob Paulsen
-Spaceball with Comb/Dink(voice) (uncredited)
-David Pfeiffer
-Wedding Guest(uncredited)
-Denney Pierce in The Invisible Man (2000)
-Denney Pierce
-Prison Guard(uncredited)
-Julie Pitkanen
-Self-Destruct Voice(uncredited)
-Ben Pollock
-Wedding Guest(uncredited)
-Julie Salles
-Wedding Guest(uncredited)
-George Sasaki
-Transporter Technician(uncredited)
-Richard Dreyfuss and Dennis Scott in What About Bob? (1991)
-Dennis Scott
-Lone Starr Stunt Double(uncredited)
-Reynaldo Silva
-Wedding Guest(uncredited)
-Marvin Smith
-Wedding Guest(uncredited)
-Walter Smith
-Wedding Guest(uncredited)
-Paul G. Stalone
-Wedding Guest(uncredited)
-Cary Stratton
-Spaceball(uncredited)
-Don Terwilliger
-Transporter Technician(uncredited)
-Oliver Theess
-Oliver Theess
-Wedding Guest(uncredited)
-Dick Warlock and Anne Bruner in Halloween II (1981)
-Dick Warlock
-Vulcan Pinch Guard Mylar(uncredited)
-Jesse Wayne
-Jesse Wayne
-Pizza Guy(uncredited)
-Brian J. Williams
-Brian J. Williams
-Prison Guard(uncredited)
-Sheb Wooley
-Sheb Wooley
-Screaming Guard(archive sound) (uncredited)
-Dee Dee Young
-Wedding Guest(uncredited)
-Producers
-Mel Brooks
-produced by
-Ezra Swerdlow
-co-producer
-Composer
-John Morris
-music by
-Cinematographer
-Nick McLean
-director of photography
-Editor
-Conrad Buff IV
-edited by
-Casting
-David Rubin
-Bill Shepard
-casting by
-Production Designer
-Terence Marsh
-production designed by
-Art Director
-Harold Michelson
-Set Decorator
-John Franco Jr.
-Costume Designer
-Donfeld
-costumes designed by
-Makeup Department
-Ken Diaz
-makeup artist
-Melanie Levitt
-makeup artist (as Melanie Elaine Levitt)
-Ben Nye III
-makeup designer (as Ben Nye Jr.)
-Rick Stratton
-makeup artist
-Dione Taylor
-hair stylist
-Max Alvarez
-makeup special effects (uncredited)
-Susan A. Cabral
-makeup artist (uncredited)
-Joe English
-makeup special effects (uncredited)
-Screaming Mad George
-makeup special effects (uncredited)
-John Goodwin
-makeup special effects (uncredited)
-Steve LaPorte
-makeup artist (uncredited)
-David Rau
-makeup special effects (uncredited)
-Elaina P. Schulman
-hair stylist (uncredited)
-Production Management
-Robert Latham Brown
-production manager
-Second Unit Directors or Assistant Directors
-Mitchell Bock
-second assistant director
-Carol D. Bonnefil
-additional second assistant director
-Dan Kolsrud
-assistant director
-Art Department
-Camille Abbott
-illustrator
-Jerry Gadette
-stand-by painter
-Arthur Gelb
-property illustrator
-William Gideon
-carpenter
-Peter J. Kelly
-set designer (as Peter Kelly)
-Guy A. MacLaury
-general foreman (as Guy Allan MacLaury)
-William S. Maxwell III
-leadman (as William Maxwell III)
-Richard McKenzie
-set designer
-James J. Pickering
-drapery man
-Ken Reed
-construction foreman
-Jacques Valin
-set designer
-Dianne Wager
-assistant art director (as Diane Wager)
-Steve Willis
-propmaker foreman
-S. Bruce Wineinger
-construction coordinator
-José Ignacio Álvarez
-carpenter (uncredited)
-John Alvin
-poster artist (uncredited)
-Steve Havrilla
-labor foreman (uncredited)
-William Hutchinson
-paint foreman (uncredited)
-Wayne Kerner
-sign writer (uncredited)
-Mick McGinty
-advance poster artwork (uncredited)
-Greg Nestor
-swing gang (uncredited)
-Joseph Perugini
-plasterer foreman (uncredited)
-Benjamin Resella
-scenic effects supervisor (uncredited)
-Earl W. Shubin
-swing gang (uncredited)
-Christopher Windisch
-carpenter (uncredited)
-Sound Department
-Sandina Bailo-Lape
-sound effects editor
-Michael John Bateman
-supervising dialogue editor
-Richard Beggs
-rerecording mixer
-David Franklin Bergad
-assistant sound editor (as David Bergad)
-Bob Bowman
-assistant sound editor (as Robert Bowman)
-Sue Breitrose
-assistant sound editor
-Scott Chandler
-assistant sound editor
-Don Coufal
-production sound mixer
-Ken Fischer
-sound effects editor
-Ernie Fosselius
-sound effects editor
-Laja Holland
-assistant sound editor
-Ronald Jacobs
-sound effects editor
-Tom Johnson
-foley recordist
-Glad Pickering
-dialogue editor
-Gary Rydstrom
-sound designer / re-recording mixer (uncredited)
-Paige Sartorius
-assistant sound editor
-George Simpson
-dialogue editor
-Ronald Sinclair
-dialogue editor
-David Slusser
-assistant sound editor
-Jim Stuebe
-production sound mixer (as Jim Steube)
-Gary Summers
-rerecording mixer
-Randy Thom
-rerecording mixer / sound designer
-Dennie Thorpe
-foley artist
-Jeff Wexler
-production sound mixer
-Pamela Jule Yuen
-assistant sound editor (as Pamela J. Yuen)
-Jim Borgardt
-adr editor (uncredited)
-Bill Rojas
-70mm magnetic sound (uncredited)
-Bill Voigtlander
-adr editor (uncredited)
-Special Effects
-Peter Albiez
-special effects supervisor
-Trevor Cripps
-special effects technician
-Rick Lazzarini
-barf ear animatronics
-Mark Lesser
-available light
-Richard Ratliff
-special effects
-Damon Allison
-special effects (uncredited)
-Raymond C. Boyle
-special effects (uncredited)
-William Burdette Jr.
-special effects (uncredited)
-Albert Delgado
-special effects (uncredited)
-Cy Guerrier
-special effects (uncredited)
-Paul Haines
-special effects (uncredited)
-John J. Hawkins
-special effects (uncredited)
-Gary L. Karas
-special effects (uncredited)
-Bruce Knechtges
-special effects (uncredited)
-Thomas Lantz
-special effects (uncredited)
-Russell McElhannon
-special effects (uncredited)
-Raymond Oberg
-special effects (uncredited)
-Peter Olexiewicz
-special effects (uncredited)
-Lambert Powell
-special effects (uncredited)
-Tom Prossner
-special effects sculptor (uncredited)
-Raymond Robinson
-special effects (uncredited)
-Monty Shook
-special effects (uncredited)
-Michael Wilmot
-special effects (uncredited)
-Roger Winiger
-special effects (uncredited)
-Visual Effects
-Richard Alexander
-effects technician: Apogee Inc.
-Percy Angress
-special visual effects producer: Apogee Inc.
-David Beasley
-model maker: Apogee Inc.
-Mat Beck
-motion control camera operator: Apogee Inc.
-Cosmas Paul Bolger Jr.
-optical camera assistant: Apogee Inc.
-Craig Boyajian
-visual effects coordinator
-Stephen David Brooks
-motion control camera assistant: Apogee Inc. (as Stephen Brooks)
-Rae Burkland
-model department special design: Apogee Inc.
-Glenn Campbell
-motion control camera assistant: Apogee Inc.
-Clint Colver
-effects animation supervisor: Apogee Inc.
-Stephen Dane
-visual effects art director: Apogee Inc. (as Steven Dane)
-Peter Donen
-visual effects supervisor
-Dennis Dorney
-optical camera assistant: Apogee Inc.
-Roger Dorney
-optical supervisor: Apogee Inc.
-Syd Dutton
-matte painting effects (as Sid Dutton)
-John Eaves
-model maker: Apogee Inc.
-Jonathan Erland
-visual effects matte technician: Apogee Inc.
-Cory Faucher
-model maker: Apogee Inc.
-Rick Gilligan
-optical camera assistant: Apogee Inc.
-Ron Goldstein
-effects technician: Apogee Inc.
-Mark Gredell
-motion control camera assistant: Apogee Inc.
-Peter Gruskoff
-visual effects production assistant
-Rhonda C. Gunner
-video and graphic displays: Video Image
-David R. Hardberger
-motion control camera operator: Apogee Inc. (as David Hardberger)
-Richard E. Hollander
-video and graphic displays: Video Image
-Robert Jason
-chief set lighting technician: Apogee Inc. (as Bob Jason)
-Paul D. Johnson
-motion control programmer: Apogee Inc. (as Paul Johnson)
-Grant McCune
-chief model maker: Apogee Inc.
-Susan McGuire
-none
-Gregory L. McMurry
-video and graphic displays: Video Image (as Gregory L. McMurray)
-Alvah J. Miller
-motion control electronics engineer: Apogee Inc.
-Debbi Nikkel
-chief production auditor: Apogee Inc.
-Tom Pahk
-model maker: Apogee Inc.
-Jerry Pooler
-optical camera operator: Apogee Inc.
-Ron Robinson
-motion control camera assistant: Apogee Inc.
-Christopher S. Ross
-model maker: Apogee Inc. (as Chris Ross)
-Jay Roth
-model maker: Apogee Inc.
-Suzie Schneider
-model maker: Apogee Inc. (as Suzy Schneider)
-Robert Shepherd
-executive in charge of production: Apogee Inc.
-John R. Shourt
-animation illustrator: Apogee Inc. (as John Shourt)
-William Shourt
-effects technician: Apogee Inc. (as Bill Shourt)
-Douglas Smith
-motion control camera operator: Apogee Inc. (as Doug Smith)
-David Sosalla
-model maker: Apogee Inc.
-Smokey Stover
-model maker: Apogee Inc.
-John E. Sullivan
-motion control camera operator: Apogee Inc. (as John Sullivan)
-Bill Taylor
-matte painting effects
-Ron Thornton
-model department special design: Apogee Inc.
-Don Trumbull
-visual effects engineer: Apogee Inc.
-Michael Van Himbergen
-production coordinator: Apogee Inc.
-John C. Wash
-video and graphic displays: Video Image
-Harry Weinmann
-animation illustrator: Apogee Inc.
-Albert Whitlock
-matte painting supervisor
-Joseph Yanuzzi
-assistant editor: Apogee Inc. (as Joe Yanuzzi)
-Charles Bailey
-creature shop manager: ILM (uncredited)
-David Cornelius
-motion control technician (uncredited)
-Joss Geiduschek
-model maker: Apogee Inc. (uncredited)
-David Johnson
-dancing alien puppeteer: ILM (uncredited)
-Sam Longoria
-visual effects machinist: Apogee Inc. (uncredited)
-Michael Douglas Middleton
-visual effects still photographer (uncredited)
-Mark Setrakian
-dancing alien animatronics: ILM (uncredited)
-Eben Stromquist
-dancing alien supervisor: ILM (uncredited)
-Joseph Thomas
-animation cameraman (uncredited)
-Lauren Vogt
-dancing alien sculptor: ILM (uncredited)
-Stunts
-Dick Warlock
-stunt coordinator (as Richard Warlock) / stunt actor (uncredited)
-Bob K. Cummings
-stunt actor (uncredited)
-Dane Farwell
-stunt double: Bill Pullman (uncredited)
-Eddie Matthews
-stunt actor (uncredited)
-Denney Pierce
-stunt actor (uncredited)
-Dennis Scott
-stunt actor (uncredited)
-Michael Washlake
-stunts (uncredited)
-Jesse Wayne
-stunt double: for Mel Brooks (uncredited)
-Jack West
-stunt double: Rick Moranis (uncredited)
-Brian J. Williams
-stunt actor (uncredited)
-Camera and Electrical Department
-Stephen E. Bridge
-camera operator (as Steve Bridge)
-Michael A. Chavez
-first assistant camera
-Lindsay P. Hill
-video playback operator
-Gerald A. King
-second grip (as Jerry King)
-George Llerena
-second assistant camera
-Steve McLean
-first assistant camera
-Michael D. O'Shea
-camera operator
-Víctor Pérez
-assistant lighting technician (as Victor Perez)
-Thomas P. Powell
-rigging electrician
-Peter Sorel
-still photographer
-Bruce D. Spellman
-second grip (as Bruce Spellman)
-Tom Stern
-chief lighting technician
-Bill Young
-key grip (as William C. Young)
-Paul Amorelli
-electrician (uncredited)
-Frank Detone Jr.
-rigging grip (uncredited)
-Jim Dunford
-dolly grip (uncredited)
-Patrick James Grosswendt
-electrician (uncredited)
-Michael Laws
-electrician (uncredited)
-Mitchell Lookabaugh
-grip (uncredited)
-Jack E. McLean Jr.
-electrician (uncredited)
-David L. Merrill
-second dolly grip (uncredited)
-Michael Douglas Middleton
-still photographer: special art (uncredited)
-Jim Porter
-electrician (uncredited)
-Bill Rustic
-grip (uncredited)
-Michael J. Spehar
-electrician (uncredited)
-Costume and Wardrobe Department
-Bruce Ericksen
-wardrobe supervisor: men
-Charmaine Nash Simmons
-wardrobe supervisor: women (as Charmaine N. Simmons)
-Ed Burza
-costumer: wedding sequence (uncredited)
-Armand Coutu
-costumer: wedding sequence (uncredited)
-Sharon Iris Crall
-costumer: wedding sequence (uncredited)
-Lorraine Dawson
-costumer: wedding sequence (uncredited)
-Guilbert Dulfer
-tailor (uncredited)
-Joan Joseff
-costume jeweller (uncredited)
-Tina Joseff
-costume jeweller (uncredited)
-Perri Kimono
-costume key person (uncredited)
-Don Pike
-costume key person (uncredited)
-Steven Zimbelman
-costume key person (uncredited)
-Editorial Department
-Debra Goldfield
-assistant editor
-Jay Ignaszewski
-associate editor
-Nicholas C. Smith
-additional editor
-Clarinda Wong
-assistant editor
-Location Management
-Michael John Meehan
-location manager (as Michael J. Meehan)
-Music Department
-Jack Hayes
-orchestrator
-Eugene Marks
-music editor
-Norman B. Schwartz
-vocal effects supervisor
-Armin Steiner
-scoring mixer
-Patricia Aiken
-musician: violin (uncredited)
-Dale Anderson
-musician: drums, percussion (uncredited)
-Don Ashworth
-musician: woodwinds (uncredited)
-Jim Atkinson
-musician: french horn (uncredited)
-Israel Baker
-musician: violin (uncredited)
-Rick Baptist
-musician: trumpet (uncredited)
-Myer Bello
-musician: viola (uncredited)
-Chuck Berghofer
-musician: bass (uncredited)
-Emily Bernstein
-musician: woodwinds (uncredited)
-Tom Boyd
-musician: oboe soloist (uncredited)
-Alfred Breuning
-musician: violin (uncredited)
-Tom Brown
-music copyist (uncredited)
-Darius Campo
-musician: violin (uncredited)
-Norman Carr
-musician: violin (uncredited)
-Fred Cooper
-music copyist (uncredited)
-Larry Corbett
-musician: cello (uncredited)
-Rose Corrigan
-musician: woodwinds (uncredited)
-Wayne Coster
-music copyist (uncredited)
-Harry Cykman
-musician: violin (uncredited)
-Roy D'Antonio
-musician: woodwinds (uncredited)
-Paulinho Da Costa
-musician: percussion (uncredited)
-Robert Daugherty
-musician: bass (uncredited)
-Waldemar DeAlmeida
-musician: cello (uncredited)
-Drew Dembowski
-musician: bass (uncredited)
-Bob DiVall
-musician: trumpet (uncredited)
-Assa Drori
-musician: violin (uncredited)
-David Duke
-musician: french horn (uncredited)
-George Duke
-musician: keyboards (uncredited)
-Earl Dumler
-musician: woodwinds (uncredited)
-Arni Egilsson
-musician: bass (uncredited)
-William Elton
-musician: trombone (uncredited)
-Henry Ferber
-musician: violin (uncredited)
-Ron Folsom
-musician: violin (uncredited)
-Gary Foster
-musician: woodwinds (uncredited)
-Catherine Gotthoffer
-musician: harp (uncredited)
-George Graham
-musician: trumpet (uncredited)
-Marilyn Graham
-musician: violin (uncredited)
-Gary Gray
-musician: woodwinds (uncredited)
-Danny Greco
-musician: drums, percussion (uncredited)
-Sol Gubin
-musician: drums, percussion (uncredited)
-Wendy Hall
-music copyist (uncredited)
-Diana Halprin
-musician: violin (uncredited)
-Gwenn Heller
-musician: violin (uncredited)
-John Hornschuch
-musician: bass (uncredited)
-Paul Jackson Jr.
-musician: guitar (uncredited)
-Ron Jannelli
-musician: woodwinds (uncredited)
-Patricia Johnson
-musician: violin (uncredited)
-Tommy Johnson
-musician: tuba (uncredited)
-Deborah S. Mitchell Jones
-music copyist (uncredited)
-Jeff Jones
-music copyist (uncredited)
-Jo Ann Kane
-music copyist (uncredited)
-Raymond Kelley
-musician: cello (uncredited)
-Randy Kerber
-musician: keyboards, piano (uncredited)
-Janet Ketchum
-musician: woodwinds (uncredited)
-Carol Kleister-Castillo
-musician: viola (uncredited)
-Bernard Kundell
-musician: violin (uncredited)
-C.T. Lake
-music copyist (uncredited)
-Michael Lloyd
-music arranger (uncredited) / song producer (uncredited)
-Nancy V. Loe
-musician: woodwinds (uncredited)
-Harry V. Lojewski
-music copyist (uncredited) / musician: keyboards, piano (uncredited)
-Warren Luening
-musician: trumpet (uncredited)
-Raymond Mace
-music copyist (uncredited)
-Yoko Matsuda
-musician: violin (uncredited)
-Malcolm McNab
-musician: trumpet (uncredited)
-Todd Miller
-musician: drums, percussion (uncredited)
-Kenneth W. Mitchell
-music copyist (uncredited)
-Angela Morley
-orchestrator (uncredited)
-Carole Mukagawa
-musician: viola (uncredited)
-Jennifer Munday
-musician: violin (uncredited)
-Brian O'Connor
-musician: french horn (uncredited)
-Don Palmer
-musician: violin (uncredited)
-Claudia Parducci
-musician: violin (uncredited)
-Richard Perissi
-musician: french horn (uncredited)
-Tony Plog
-musician: trumpet (uncredited)
-Ralph Pollock
-musician: french horn (uncredited)
-Debra M. Price
-musician: violin (uncredited)
-Kim Pringle
-musician: viola (uncredited)
-Rebecca Reese
-musician: cello (uncredited)
-Christopher Reutinger
-musician: violin (uncredited)
-Jay Rosen
-musician: violin (uncredited)
-Robin Ross
-musician: viola (uncredited)
-Meyer Rubin
-musician: bass (uncredited)
-Robert Sanov
-musician: violin (uncredited)
-Sheldon Sanov
-musician: violin (uncredited)
-David Schwartz
-musician: bass (uncredited)
-Frederick Seykora
-musician: cello (uncredited)
-David Shamban
-musician: cello (uncredited)
-Harry Shlutz
-musician: cello (uncredited)
-David Shostac
-musician: woodwinds (uncredited)
-Karen Smith
-music copyist (uncredited)
-Mike Snyder
-musician: drums, percussion (uncredited)
-Joe Soldo
-musician: woodwinds (uncredited)
-Tina Soule
-musician: cello (uncredited)
-Spiros Stamos
-musician: violin (uncredited)
-Sheridon Stokes
-musician: woodwinds (uncredited)
-Robert Stone
-musician: bass (uncredited)
-Lisa M. Sutton
-musician: violin (uncredited)
-Jeremy Thale
-music copyist (uncredited)
-James Thatcher
-musician: french horn (uncredited)
-Barbara Thomason
-musician: viola (uncredited)
-Richard Todd
-musician: french horn (uncredited)
-Robert Tricarico
-musician: woodwinds (uncredited)
-Cynthia Ann Turner
-music copyist (uncredited)
-Lloyd Ulyate
-musician: trombone (uncredited)
-Ian Underwood
-musician: keyboards, piano (uncredited)
-Gerald Vinci
-musician: violin (uncredited)
-Don Waldrop
-musician: tuba (uncredited)
-Freddie Washington
-musician: bass (uncredited)
-Chauncey Welsch
-musician: trombone (uncredited)
-John Winter
-musician: woodwinds (uncredited)
-John Wittenberg
-musician: violin (uncredited)
-Gary Woodward
-musician: woodwinds (uncredited)
-Margaret Wooten
-musician: violin (uncredited)
-David Young
-musician: bass (uncredited)
-Bob Zimmitti
-musician: drums, percussion (uncredited)
-Mihail Zinovyev
-musician: viola (uncredited)
-Script and Continuity Department
-Julie Pitkanen
-script supervisor
-Transportation Department
-Chet Brooks
-transportation captain
-Jim Chesney
-transportation coordinator
-Chester Haffey
-transportation
-Frank Ancone
-driver (uncredited)
-Rodney Lee Bennett
-driver (uncredited)
-Donald P. Desmond
-driver (uncredited)
-David Diaz
-driver (uncredited)
-Craig Fehrman
-driver (uncredited)
-David Freeman
-driver (uncredited)
-Frank Hernandez
-driver (uncredited)
-William Hogue
-driver (uncredited)
-Ray Osburn
-driver (uncredited)
-Richard Reedy
-driver (uncredited)
-Christopher Rigby
-driver (uncredited)
-Richard Tashjian
-driver (uncredited)
-Color Department
-Brian Borne
-colorist (uncredited)
-Craft Services
-Ramon Pahoyo
-craft service
-Dale Ashman
-craft service: special effects (uncredited)
-Robert W. Ramage
-craft service: special effects (uncredited)
-Production Department
-James Caverly
-production assistant
-Joanne Wetzel Caverly
-production assistant (as JoAnne Wetzel Caverly)
-Mary Courtney
-production coordinator
-Charles J.D. Schlissel
-production assistant (as Charles Schlissel)
-Production Finance and Accounting
-Alison Harstedt
-accountant
-Laurie Stuebe
-accountant (as Laurie Steube)
-Property Department
-Bill King
-assistant property master
-Dennis J. Parrish
-property master (as Dennis Parrish)
-Publicity
-Saul Kahan
-publicist
-Susan Lee Smith
-publicist (uncredited)
-Voice Actors - Dubbing
-
-Italian (2)
-Pino Ammendola
-Pizza Hot
-Massimo Giuliani
-Barf
-Additional Crew
-Nyna Cravens
-assistant: Mr. Candy
-Karen D'Arc
-assistant: Mr. Meehan & Mr. Graham
-Ann Fisher
-assistant: Mr. Meehan & Mr. Graham
-Anthony Goldschmidt
-title designer
-Daren Hicks
-assistant: Ezra Swerdlow
-K. Lenna Katich
-production controller (as K. Lenna Kunkel)
-Alan Ladd Jr.
-presenter
-Louis Sapin
-French adaptation: dubbed version
-Leah Zappy
-assistant: Mr. Brooks
-Roy Goldman
-stand-in: Mel Brooks (uncredited)
-Lillian Michelson
-researcher (uncredited)
-Julie Salles
-stand-in: Daphne Zuniga (uncredited)
-Jeff Viola
-stand-in (uncredited)
-Robert 'Bobby Z' Zajonc
-helicopter pilot (uncredited)
-Thanks
-Bob Greenberg
-the producer wishes to give special thanks to
-Gerald B. Greenberg
-the producer wishes to give special thanks to (as Jerry Greenberg)"""
+Mel Brooks\
+written by &\
+Thomas Meehan\
+written by &\
+Ronny Graham\
+written by\
+Cast\
+(in credits order) verified as complete\
+Mel Brooks\
+Mel Brooks\
+President Skroob/Yogurt\
+John Candy at an event for The 60th Annual Academy Awards (1988)\
+John Candy\
+Barf\
+Rick Moranis in Splitting Heirs (1993)\
+Rick Moranis\
+Dark Helmet\
+Bill Pullman in Independence Day: Resurgence (2016)\
+Bill Pullman\
+Lone Starr\
+Daphne \
+Daphne Zuniga\
+Princess Vespa\
+Dick Van Patten in Eight Is Enough (1977)\
+Dick Van Patten\
+King Roland\
+George Wyner in Wildcats (1986)\
+George Wyner\
+Colonel Sandurz\
+Michael Winslow\
+Michael Winslow\
+Radar Technician\
+Joan Rivers in The Apprentice (2004)\
+Joan Rivers\
+Dot Matrix(voice)\
+Lorene Yarnell Jansson\
+Lorene Yarnell Jansson\
+Dot Matrix(as Lorene Yarnell)\
+John Hurt\
+John Hurt\
+John Hurt\
+Sal Viscuso\
+Sal Viscuso\
+Radio Operator Sergeant Ricco\
+Ronny Graham in Spaceballs (1987)\
+Ronny Graham\
+Minister\
+Jim J. Bullock\
+Jim J. Bullock\
+Prince Valium(as JM J. Bullock)\
+Leslie Bevis in Murder, She Wrote (1984)\
+Leslie Bevis\
+Commanderette Zircon\
+Jim Jackman\
+Jim Jackman\
+Major Asshole\
+Mike Pniewski\
+Mike Pniewski\
+Laser Gunner(as Michael Pniewski)\
+Sandy Helberg in The Paragon of Comedy (1983)\
+Sandy Helberg\
+Dr. Schlotkin\
+Stephen Tobolowsky\
+Stephen Tobolowsky\
+Captain of the Guard\
+Jeff MacGregor in Show 123 (1989)\
+Jeff MacGregor\
+Snotty\
+Henry Kaiser\
+Magnetic Beam Operator\
+Denise Gallup\
+Charlene\
+Dian \
+Marlene\
+Gail Barle\
+Waitress\
+Dey Young\
+Dey Young\
+Waitress\
+Rhonda Shear\
+Rhonda Shear\
+Woman in Diner\
+Robert Prescott\
+Robert Prescott\
+Sand Cruiser Driver\
+Jack Riley at an event for The Aristocrats (2005)\
+Jack Riley\
+TV Newsman\
+Tom Dreesen\
+Tom Dreesen\
+Megamaid Guard\
+Dom DeLuise, Rudy De Luca, and Rick Lazzarini in Spaceballs (1987)\
+Rudy De Luca\
+Vinnie(as Rudy DeLuca)\
+Tony Griffin\
+Prison Guard\
+Rick Ducommun\
+Rick Ducommun\
+Prison Guard\
+Ken Olfson in One Day at a Time (1975)\
+Ken Olfson\
+Head Usher\
+Bryan O'Byrne in Bewitched (1964)\
+Bryan O'Byrne\
+Organist\
+Wayne Wilson\
+Trucker in Cap\
+Ira Miller\
+Short Order Cook\
+Earl Finn\
+Guard with Captain\
+Mitchell Bock\
+Video Operator\
+Tommy Swerdlow\
+Tommy Swerdlow\
+Troop Leader\
+Tim Russ in Crossroads (1986)\
+Tim Russ\
+Trooper\
+Ed Gale\
+Ed Gale\
+Dink\
+Antonio Hoyos\
+Dink\
+Felix \
+Felix Silla\
+Dink\
+Arturo Gil\
+Arturo Gil\
+Dink\
+Tony Cox at an event for Who's Your Caddy? (2007)\
+Tony Cox\
+Dink\
+John Kennedy Hayden\
+Dink\
+Dee Booher\
+Bearded Lady(as Deanna Booher)\
+Johnny Silver\
+Johnny Silver\
+Caddy Arnold\
+Brenda Strong\
+Brenda Strong\
+Nurse Gretchen\
+Dom DeLuise\
+Dom \
+Pizza the Hutt(voice)\
+Rest of cast listed alphabetically\
+Elaine Ballace\
+War Room Tech #1(uncredited)\
+Robert Buckingham\
+Robert Buckingham\
+Wedding Guest(uncredited)\
+Corey Burton in Atlantis: The Lost Empire (2001)\
+Corey Burton\
+Dink(voice) (uncredited)\
+John E. Coleman\
+Prison Guard(uncredited)\
+John Copage\
+Wedding Guest(uncredited)\
+Dan Cotter\
+Wedding Guest(uncredited)\
+Bob K. Cummings\
+Prison Guard(uncredited)\
+Robert Dulaine\
+Wedding Guest(uncredited)\
+Brent \
+Wedding Guest(uncredited)\
+Rose Dursey\
+War Room Tech #2(uncredited)\
+Dane Farwell\
+Dane Farwell\
+Ape #1(uncredited)\
+Buddy Gates\
+Wedding Guest(uncredited)\
+Roy Goldman in M*A*S*H (1972)\
+Roy Goldman\
+Spaceball(uncredited)\
+Camille Hagen\
+Woman in Diner(uncredited)\
+Phil Hartman\
+Phil Hartman\
+Dink(voice) (uncredited)\
+Fritz Herzog\
+Prince Valium Family Member(uncredited)\
+Conrad Hurtt\
+Conrad Hurtt\
+Spaceball Guard(uncredited)\
+Richard Karron\
+Pizza the Hut(uncredited)\
+Rick Lazzarini\
+Rick Lazzarini\
+Ape #2(uncredited)\
+Tress MacNeille\
+Tress MacNeille\
+Dink(voice) (uncredited)\
+Terence \
+Terence Marsh\
+Spaceball Drum Beater(uncredited)\
+Jeri McBride\
+Wedding Guest(uncredited)\
+Steve McLean\
+Steve McLean\
+Movie Crew Member(uncredited)\
+Thomas \
+Thomas Meehan\
+King Roland's Aide(uncredited)\
+Jim Michael\
+Diner Patron(uncredited)\
+Sam Nickens\
+Wedding Guest(uncredited)\
+John Paragon\
+John Paragon\
+Dink(voice) (uncredited)\
+Rob Paulsen at an event for Jimmy Neutron: Boy Genius (2001)\
+Rob Paulsen\
+Spaceball with Comb/Dink(voice) (uncredited)\
+David Pfeiffer\
+Wedding Guest(uncredited)\
+Denney Pierce in The Invisible Man (2000)\
+Denney Pierce\
+Prison Guard(uncredited)\
+Julie Pitkanen\
+Self-Destruct Voice(uncredited)\
+Ben Pollock\
+Wedding Guest(uncredited)\
+Julie Salles\
+Wedding Guest(uncredited)\
+George Sasaki\
+Transporter Technician(uncredited)\
+Richard Dreyfuss and Dennis Scott in What About Bob? (1991)\
+Dennis Scott\
+Lone Starr Stunt Double(uncredited)\
+Reynaldo Silva\
+Wedding Guest(uncredited)\
+Marvin \
+Wedding Guest(uncredited)\
+Walter Smith\
+Wedding Guest(uncredited)\
+Paul G. Stalone\
+Wedding Guest(uncredited)\
+Cary Stratton\
+Spaceball(uncredited)\
+Don Terwilliger\
+Transporter Technician(uncredited)\
+Oliver Theess\
+Oliver Theess\
+Wedding Guest(uncredited)\
+Dick Warlock and Anne Bruner in Halloween II (1981)\
+Dick Warlock\
+Vulcan Pinch Guard Mylar(uncredited)\
+Jesse Wayne\
+Jesse Wayne\
+Pizza Guy(uncredited)\
+Brian J. Williams\
+Brian J. Williams\
+Prison Guard(uncredited)\
+Sheb Wooley\
+Sheb Wooley\
+Screaming Guard(archive sound) (uncredited)\
+Dee Dee Young\
+Wedding Guest(uncredited)\
+Producers\
+Mel Brooks\
+produced by\
+Ezra Swerdlow\
+co-producer\
+Composer\
+John Morris\
+music by\
+Cinematographer\
+Nick McLean\
+director of photography\
+Editor\
+Conrad Buff IV\
+edited by\
+Casting\
+David Rubin\
+Bill Shepard\
+casting by\
+Production Designer\
+Terence Marsh\
+production designed by\
+Art Director\
+Harold Michelson\
+Set Decorator\
+John Franco Jr.\
+Costume Designer\
+Donfeld\
+costumes designed by\
+Makeup Department\
+Ken Diaz\
+makeup artist\
+Melanie \
+makeup artist (as Melanie Elaine Levitt)\
+Ben Nye III\
+makeup designer (as Ben Nye Jr.)\
+Rick Stratton\
+makeup artist\
+Dione Taylor\
+hair stylist\
+Max Alvarez\
+makeup special effects (uncredited)\
+Susan A. Cabral\
+makeup artist (uncredited)\
+Joe English\
+makeup special effects (uncredited)\
+Screaming Mad George\
+makeup special effects (uncredited)\
+John Goodwin\
+makeup special effects (uncredited)\
+Steve LaPorte\
+makeup artist (uncredited)\
+David Rau\
+makeup special effects (uncredited)\
+Elaina P. Schulman\
+hair stylist (uncredited)\
+Production Management\
+Robert Latham Brown\
+production manager\
+Second Unit Directors or Assistant Directors\
+Mitchell Bock\
+second assistant director\
+Carol D. Bonnefil\
+additional second assistant director\
+Dan Kolsrud\
+assistant director\
+Art Department\
+Camille Abbott\
+illustrator\
+Jerry Gadette\
+stand-by painter\
+Arthur Gelb\
+property illustrator\
+William Gideon\
+carpenter\
+Peter J. Kelly\
+set designer (as Peter Kelly)\
+Guy A. MacLaury\
+general foreman (as Guy Allan MacLaury)\
+William S. Maxwell III\
+leadman (as William Maxwell III)\
+Richard McKenzie\
+set designer\
+James J. Pickering\
+drapery man\
+Ken Reed\
+construction foreman\
+Jacques Valin\
+set designer\
+Dianne Wager\
+assistant art director (as Diane Wager)\
+Steve Willis\
+propmaker foreman\
+S. Bruce Wineinger\
+construction coordinator\
+José Ignacio Álvarez\
+carpenter (uncredited)\
+John Alvin\
+poster artist (uncredited)\
+Steve Havrilla\
+labor foreman (uncredited)\
+William Hutchinson\
+paint foreman (uncredited)\
+Wayne Kerner\
+sign writer (uncredited)\
+Mick McGinty\
+advance poster artwork (uncredited)\
+Greg Nestor\
+swing gang (uncredited)\
+Joseph Perugini\
+plasterer foreman (uncredited)\
+Benjamin Resella\
+scenic effects supervisor (uncredited)\
+Earl W. Shubin\
+swing gang (uncredited)\
+Christopher Windisch\
+carpenter (uncredited)\
+Sound Department\
+Sandina Bailo-Lape\
+sound effects editor\
+Michael John Bateman\
+supervising dialogue editor\
+Richard Beggs\
+rerecording mixer\
+David Franklin Bergad\
+assistant sound editor (as David Bergad)\
+Bob Bowman\
+assistant sound editor (as Robert Bowman)\
+Sue Breitrose\
+assistant sound editor\
+Scott Chandler\
+assistant sound editor\
+Don Coufal\
+production sound mixer\
+Ken Fischer\
+sound effects editor\
+Ernie Fosselius\
+sound effects editor\
+Laja Holland\
+assistant sound editor\
+Ronald Jacobs\
+sound effects editor\
+Tom Johnson\
+foley recordist\
+Glad Pickering\
+dialogue editor\
+Gary Rydstrom\
+sound designer / re-recording mixer (uncredited)\
+Paige Sartorius\
+assistant sound editor\
+George Simpson\
+dialogue editor\
+Ronald Sinclair\
+dialogue editor\
+David Slusser\
+assistant sound editor\
+Jim Stuebe\
+production sound mixer (as Jim Steube)\
+Gary Summers\
+rerecording mixer\
+Randy Thom\
+rerecording mixer / sound designer\
+Dennie Thorpe\
+foley artist\
+Jeff Wexler\
+production sound mixer\
+Pamela Jule Yuen\
+assistant sound editor (as Pamela J. Yuen)\
+Jim Borgardt\
+adr editor (uncredited)\
+Bill Rojas\
+70mm magnetic sound (uncredited)\
+Bill Voigtlander\
+adr editor (uncredited)\
+Special Effects\
+Peter Albiez\
+special effects supervisor\
+Trevor Cripps\
+special effects technician\
+Rick Lazzarini\
+barf ear animatronics\
+Mark Lesser\
+available light\
+Richard Ratliff\
+special effects\
+Damon Allison\
+special effects (uncredited)\
+Raymond C. Boyle\
+special effects (uncredited)\
+William Burdette Jr.\
+special effects (uncredited)\
+Albert \
+special effects (uncredited)\
+Cy Guerrier\
+special effects (uncredited)\
+Paul Haines\
+special effects (uncredited)\
+John J. Hawkins\
+special effects (uncredited)\
+Gary L. Karas\
+special effects (uncredited)\
+Bruce Knechtges\
+special effects (uncredited)\
+Thomas Lantz\
+special effects (uncredited)\
+Russell McElhannon\
+special effects (uncredited)\
+Raymond Oberg\
+special effects (uncredited)\
+Peter Olexiewicz\
+special effects (uncredited)\
+Lambert Powell\
+special effects (uncredited)\
+Tom Prossner\
+special effects sculptor (uncredited)\
+Raymond Robinson\
+special effects (uncredited)\
+Monty Shook\
+special effects (uncredited)\
+Michael Wilmot\
+special effects (uncredited)\
+Roger Winiger\
+special effects (uncredited)\
+Visual Effects\
+Richard Alexander\
+effects technician: Apogee Inc.\
+Percy Angress\
+special visual effects producer: Apogee Inc.\
+David Beasley\
+model maker: Apogee Inc.\
+Mat Beck\
+motion control camera operator: Apogee Inc.\
+Cosmas Paul Bolger Jr.\
+optical camera assistant: Apogee Inc.\
+Craig Boyajian\
+visual effects coordinator\
+Stephen David Brooks\
+motion control camera assistant: Apogee Inc. (as Stephen Brooks)\
+Rae Burkland\
+model department special design: Apogee Inc.\
+Glenn Campbell\
+motion control camera assistant: Apogee Inc.\
+Clint Colver\
+effects animation supervisor: Apogee Inc.\
+Stephen Dane\
+visual effects art director: Apogee Inc. (as Steven Dane)\
+Peter Donen\
+visual effects \
+Dennis Dorney\
+optical camera assistant: Apogee Inc.\
+Roger Dorney\
+optical supervisor: Apogee Inc.\
+Syd Dutton\
+matte painting effects (as Sid Dutton)\
+John Eaves\
+model maker: Apogee Inc.\
+Jonathan Erland\
+visual effects matte technician: Apogee Inc.\
+Cory Faucher\
+model maker: Apogee Inc.\
+Rick Gilligan\
+optical camera assistant: Apogee Inc.\
+Ron Goldstein\
+effects technician: Apogee Inc.\
+Mark Gredell\
+motion control camera assistant: Apogee Inc.\
+Peter Gruskoff\
+visual effects production assistant\
+Rhonda C. Gunner\
+video and graphic displays: Video Image\
+David R. Hardberger\
+motion control camera operator: Apogee Inc. (as David Hardberger)\
+Richard E. Hollander\
+video and graphic displays: Video Image\
+Robert Jason\
+chief set lighting technician: Apogee Inc. (as Bob Jason)\
+Paul D. Johnson\
+motion control programmer: Apogee Inc. (as Paul Johnson)\
+Grant McCune\
+chief model maker: Apogee Inc.\
+Susan McGuire\
+none\
+Gregory L. McMurry\
+video and graphic displays: Video Image (as Gregory L. McMurray)\
+Alvah J. Miller\
+motion control electronics engineer: Apogee Inc.\
+Debbi Nikkel\
+chief production auditor: Apogee Inc.\
+Tom Pahk\
+model maker: Apogee Inc.\
+Jerry Pooler\
+optical camera operator: Apogee Inc.\
+Ron Robinson\
+motion control camera assistant: Apogee Inc.\
+Christopher S. Ross\
+model maker: Apogee Inc. (as Chris Ross)\
+Jay Roth\
+model maker: Apogee Inc.\
+Suzie Schneider\
+model maker: Apogee Inc. (as Suzy Schneider)\
+Robert Shepherd\
+executive in charge of production: Apogee Inc.\
+John R. Shourt\
+animation illustrator: Apogee Inc. (as John Shourt)\
+William Shourt\
+effects technician: Apogee Inc. (as Bill Shourt)\
+Douglas Smith\
+motion control camera operator: Apogee Inc. (as Doug Smith)\
+David Sosalla\
+model maker: Apogee Inc.\
+Smokey Stover\
+model maker: Apogee Inc.\
+John E. Sullivan\
+motion control camera operator: Apogee Inc. (as John Sullivan)\
+Bill Taylor\
+matte painting effects\
+Ron Thornton\
+model department special design: Apogee Inc.\
+Don Trumbull\
+visual effects engineer: Apogee Inc.\
+Michael Van Himbergen\
+production coordinator: Apogee Inc.\
+John C. Wash\
+video and graphic displays: Video Image\
+Harry Weinmann\
+animation illustrator: Apogee Inc.\
+Albert Whitlock\
+matte painting supervisor\
+Joseph Yanuzzi\
+assistant editor: Apogee Inc. (as Joe Yanuzzi)\
+Charles Bailey\
+creature shop manager: ILM (uncredited)\
+David Cornelius\
+motion control technician (uncredited)\
+Joss Geiduschek\
+model maker: Apogee Inc. (uncredited)\
+David Johnson\
+dancing alien puppeteer: ILM (uncredited)\
+Sam Longoria\
+visual effects machinist: Apogee Inc. (uncredited)\
+Michael Douglas Middleton\
+visual effects still photographer (uncredited)\
+Mark Setrakian\
+dancing alien animatronics: ILM (uncredited)\
+Eben Stromquist\
+dancing alien supervisor: ILM (uncredited)\
+Joseph Thomas\
+animation cameraman (uncredited)\
+Lauren Vogt\
+dancing alien sculptor: ILM (uncredited)\
+Stunts\
+Dick Warlock\
+stunt coordinator (as Richard Warlock) / stunt actor (uncredited)\
+Bob K. Cummings\
+stunt actor (uncredited)\
+Dane Farwell\
+stunt double: Bill Pullman (uncredited)\
+Eddie Matthews\
+stunt actor (uncredited)\
+Denney Pierce\
+stunt actor (uncredited)\
+Dennis Scott\
+stunt actor (uncredited)\
+Michael Washlake\
+stunts (uncredited)\
+Jesse Wayne\
+stunt double: for Mel Brooks (uncredited)\
+Jack West\
+stunt double: Rick Moranis (uncredited)\
+Brian J. Williams\
+stunt actor (uncredited)\
+Camera and Electrical Department\
+Stephen E. Bridge\
+camera operator (as Steve Bridge)\
+Michael A. Chavez\
+first assistant camera\
+Lindsay P. Hill\
+video playback operator\
+Gerald A. King\
+second grip (as Jerry King)\
+George Llerena\
+second assistant camera\
+Steve McLean\
+first assistant camera\
+Michael D. O'Shea\
+camera operator\
+Víctor Pérez\
+assistant lighting technician (as Victor Perez)\
+Thomas P. Powell\
+rigging electrician\
+Peter Sorel\
+still photographer\
+Bruce D. Spellman\
+second grip (as Bruce Spellman)\
+Tom Stern\
+chief lighting technician\
+Bill Young\
+key grip (as William C. Young)\
+Paul Amorelli\
+electrician (uncredited)\
+Frank Detone Jr.\
+rigging grip (uncredited)\
+Jim Dunford\
+dolly grip (uncredited)\
+Patrick James Grosswendt\
+electrician (uncredited)\
+Michael Laws\
+electrician (uncredited)\
+Mitchell Lookabaugh\
+grip (uncredited)\
+Jack E. McLean Jr.\
+electrician (uncredited)\
+David L. Merrill\
+second dolly grip (uncredited)\
+Michael Douglas Middleton\
+still photographer: special art (uncredited)\
+Jim Porter\
+electrician (uncredited)\
+Bill Rustic\
+grip (uncredited)\
+Michael J. Spehar\
+electrician (uncredited)\
+Costume and Wardrobe Department\
+Bruce Ericksen\
+wardrobe supervisor: men\
+Charmaine Nash Simmons\
+wardrobe supervisor: women (as Charmaine N. Simmons)\
+Ed Burza\
+costumer: wedding sequence (uncredited)\
+Armand Coutu\
+costumer: wedding sequence (uncredited)\
+Sharon Iris Crall\
+costumer: wedding sequence (uncredited)\
+Lorraine Dawson\
+costumer: wedding sequence (uncredited)\
+Guilbert Dulfer\
+tailor (uncredited)\
+Joan Joseff\
+costume jeweller (uncredited)\
+Tina Joseff\
+costume jeweller (uncredited)\
+Perri Kimono\
+costume key person (uncredited)\
+Don Pike\
+costume key person (uncredited)\
+Steven Zimbelman\
+costume key person (uncredited)\
+Editorial Department\
+Debra Goldfield\
+assistant editor\
+Jay Ignaszewski\
+associate editor\
+Nicholas C. Smith\
+additional editor\
+Clarinda Wong\
+assistant editor\
+Location Management\
+Michael John Meehan\
+location manager (as Michael J. Meehan)\
+Music Department\
+Jack Hayes\
+orchestrator\
+Eugene Marks\
+music editor\
+Norman B. Schwartz\
+vocal effects supervisor\
+Armin Steiner\
+scoring mixer\
+Patricia Aiken\
+musician: violin (uncredited)\
+Dale Anderson\
+musician: drums, percussion (uncredited)\
+Don Ashworth\
+musician: woodwinds (uncredited)\
+Jim Atkinson\
+musician: french horn (uncredited)\
+Israel Baker\
+musician: violin (uncredited)\
+Rick Baptist\
+musician: trumpet (uncredited)\
+Myer Bello\
+musician: viola (uncredited)\
+Chuck Berghofer\
+musician: bass (uncredited)\
+Emily Bernstein\
+musician: woodwinds (uncredited)\
+Tom Boyd\
+musician: oboe soloist (uncredited)\
+Alfred Breuning\
+musician: violin (uncredited)\
+Tom Brown\
+music copyist (uncredited)\
+Darius Campo\
+musician: violin (uncredited)\
+Norman Carr\
+musician: violin (uncredited)\
+Fred Cooper\
+music copyist (uncredited)\
+Larry Corbett\
+musician: cello (uncredited)\
+Rose Corrigan\
+musician: woodwinds (uncredited)\
+Wayne Coster\
+music copyist (uncredited)\
+Harry Cykman\
+musician: violin (uncredited)\
+Roy D'Antonio\
+musician: woodwinds (uncredited)\
+Paulinho Da Costa\
+musician: percussion (uncredited)\
+Robert Daugherty\
+musician: bass (uncredited)\
+Waldemar DeAlmeida\
+musician: cello (uncredited)\
+Drew Dembowski\
+musician: bass (uncredited)\
+Bob DiVall\
+musician: trumpet (uncredited)\
+Assa Drori\
+musician: violin (uncredited)\
+David Duke\
+musician: french horn (uncredited)\
+George Duke\
+musician: keyboards (uncredited)\
+Earl Dumler\
+musician: woodwinds (uncredited)\
+Arni Egilsson\
+musician: bass (uncredited)\
+William Elton\
+musician: trombone (uncredited)\
+Henry Ferber\
+musician: violin (uncredited)\
+Ron Folsom\
+musician: violin (uncredited)\
+Gary Foster\
+musician: woodwinds (uncredited)\
+Catherine Gotthoffer\
+musician: harp (uncredited)\
+George Graham\
+musician: trumpet (uncredited)\
+Marilyn Graham\
+musician: violin (uncredited)\
+Gary Gray\
+musician: woodwinds (uncredited)\
+Danny Greco\
+musician: drums, percussion (uncredited)\
+Sol Gubin\
+musician: drums, percussion (uncredited)\
+Wendy Hall\
+music copyist (uncredited)\
+Diana Halprin\
+musician: violin (uncredited)\
+Gwenn Heller\
+musician: violin (uncredited)\
+John Hornschuch\
+musician: bass (uncredited)\
+Paul Jackson Jr.\
+musician: guitar (uncredited)\
+Ron Jannelli\
+musician: woodwinds (uncredited)\
+Patricia Johnson\
+musician: violin (uncredited)\
+Tommy Johnson\
+musician: tuba (uncredited)\
+Deborah S. Mitchell Jones\
+music copyist (uncredited)\
+Jeff Jones\
+music copyist (uncredited)\
+Jo Ann Kane\
+music copyist (uncredited)\
+Raymond Kelley\
+musician: cello (uncredited)\
+Randy Kerber\
+musician: keyboards, piano (uncredited)\
+Janet Ketchum\
+musician: woodwinds (uncredited)\
+Carol Kleister-Castillo\
+musician: viola (uncredited)\
+Bernard Kundell\
+musician: violin (uncredited)\
+C.T. Lake\
+music copyist (uncredited)\
+Michael Lloyd\
+music arranger (uncredited) / song producer (uncredited)\
+Nancy V. Loe\
+musician: woodwinds (uncredited)\
+Harry V. Lojewski\
+music copyist (uncredited) / musician: keyboards, piano (uncredited)\
+Warren Luening\
+musician: trumpet (uncredited)\
+Raymond Mace\
+music copyist (uncredited)\
+Yoko Matsuda\
+musician: violin (uncredited)\
+Malcolm McNab\
+musician: trumpet (uncredited)\
+Todd Miller\
+musician: drums, percussion (uncredited)\
+Kenneth W. Mitchell\
+music copyist (uncredited)\
+Angela Morley\
+orchestrator (uncredited)\
+Carole Mukagawa\
+musician: viola (uncredited)\
+Jennifer Munday\
+musician: violin (uncredited)\
+Brian O'Connor\
+musician: french horn (uncredited)\
+Don Palmer\
+musician: violin (uncredited)\
+Claudia Parducci\
+musician: violin (uncredited)\
+Richard Perissi\
+musician: french horn (uncredited)\
+Tony Plog\
+musician: trumpet (uncredited)\
+Ralph Pollock\
+musician: french horn (uncredited)\
+Debra M. Price\
+musician: violin (uncredited)\
+Kim Pringle\
+musician: viola (uncredited)\
+Rebecca Reese\
+musician: cello (uncredited)\
+Christopher Reutinger\
+musician: violin (uncredited)\
+Jay Rosen\
+musician: violin (uncredited)\
+Robin Ross\
+musician: viola (uncredited)\
+Meyer Rubin\
+musician: bass (uncredited)\
+Robert Sanov\
+musician: violin (uncredited)\
+Sheldon Sanov\
+musician: violin (uncredited)\
+David Schwartz\
+musician: bass (uncredited)\
+Frederick Seykora\
+musician: cello (uncredited)\
+David Shamban\
+musician: cello (uncredited)\
+Harry Shlutz\
+musician: cello (uncredited)\
+David Shostac\
+musician: woodwinds (uncredited)\
+Karen Smith\
+music copyist (uncredited)\
+Mike Snyder\
+musician: drums, percussion (uncredited)\
+Joe Soldo\
+musician: woodwinds (uncredited)\
+Tina Soule\
+musician: cello (uncredited)\
+Spiros Stamos\
+musician: violin (uncredited)\
+Sheridon Stokes\
+musician: woodwinds (uncredited)\
+Robert Stone\
+musician: bass (uncredited)\
+Lisa M. Sutton\
+musician: violin (uncredited)\
+Jeremy Thale\
+music copyist (uncredited)\
+James Thatcher\
+musician: french horn (uncredited)\
+Barbara Thomason\
+musician: viola (uncredited)\
+Richard Todd\
+musician: french horn (uncredited)\
+Robert Tricarico\
+musician: woodwinds (uncredited)\
+Cynthia Ann Turner\
+music copyist (uncredited)\
+Lloyd Ulyate\
+musician: trombone (uncredited)\
+Ian Underwood\
+musician: keyboards, piano (uncredited)\
+Gerald Vinci\
+musician: violin (uncredited)\
+Don Waldrop\
+musician: tuba (uncredited)\
+Freddie Washington\
+musician: bass (uncredited)\
+Chauncey Welsch\
+musician: trombone (uncredited)\
+John Winter\
+musician: woodwinds (uncredited)\
+John Wittenberg\
+musician: violin (uncredited)\
+Gary Woodward\
+musician: woodwinds (uncredited)\
+Margaret Wooten\
+musician: violin (uncredited)\
+David Young\
+musician: bass (uncredited)\
+Bob Zimmitti\
+musician: drums, percussion (uncredited)\
+Mihail Zinovyev\
+musician: viola (uncredited)\
+Script and Continuity Department\
+Julie Pitkanen\
+script supervisor\
+Transportation Department\
+Chet Brooks\
+transportation captain\
+Jim Chesney\
+transportation coordinator\
+Chester Haffey\
+transportation\
+Frank Ancone\
+driver (uncredited)\
+Rodney Lee Bennett\
+driver (uncredited)\
+Donald P. Desmond\
+driver (uncredited)\
+David Diaz\
+driver (uncredited)\
+Craig Fehrman\
+driver (uncredited)\
+David Freeman\
+driver (uncredited)\
+Frank Hernandez\
+driver (uncredited)\
+William Hogue\
+driver (uncredited)\
+Ray Osburn\
+driver (uncredited)\
+Richard Reedy\
+driver (uncredited)\
+Christopher Rigby\
+driver (uncredited)\
+Richard Tashjian\
+driver (uncredited)\
+Color Department\
+Brian Borne\
+colorist (uncredited)\
+Craft Services\
+Ramon Pahoyo\
+craft service\
+Dale Ashman\
+craft service: special effects (uncredited)\
+Robert W. Ramage\
+craft service: special effects (uncredited)\
+Production Department\
+James Caverly\
+production assistant\
+Joanne Wetzel Caverly\
+production assistant (as JoAnne Wetzel Caverly)\
+Mary Courtney\
+production coordinator\
+Charles J.D. Schlissel\
+production assistant (as Charles Schlissel)\
+Production Finance and Accounting\
+Alison Harstedt\
+accountant\
+Laurie Stuebe\
+accountant (as Laurie Steube)\
+Property Department\
+Bill King\
+assistant property master\
+Dennis J. Parrish\
+property master (as Dennis Parrish)\
+Publicity\
+Saul Kahan\
+publicist\
+Susan Lee Smith\
+publicist (uncredited)\
+Voice Actors - Dubbing\
+\
+Italian (2)\
+Pino Ammendola\
+Pizza Hot\
+Massimo Giuliani\
+Barf\
+Additional Crew\
+Nyna Cravens\
+assistant: Mr. Candy\
+Karen D'Arc\
+assistant: Mr. Meehan & Mr. Graham\
+Ann Fisher\
+assistant: Mr. Meehan & Mr. Graham\
+Anthony Goldschmidt\
+title designer\
+Daren Hicks\
+assistant: Ezra Swerdlow\
+K. Lenna Katich\
+production controller (as K. Lenna Kunkel)\
+Alan Ladd Jr.\
+presenter\
+Louis Sapin\
+French adaptation: dubbed version\
+Leah Zappy\
+assistant: Mr. Brooks\
+Roy Goldman\
+stand-in: Mel Brooks (uncredited)\
+Lillian Michelson\
+researcher (uncredited)\
+Julie Salles\
+stand-in: Daphne Zuniga (uncredited)\
+Jeff Viola\
+stand-in (uncredited)\
+Robert 'Bobby Z' Zajonc\
+helicopter pilot (uncredited)\
+Thanks\
+Bob Greenberg\
+the producer wishes to give special thanks to\
+Gerald B. Greenberg\
+the producer wishes to give special thanks to (as Jerry Greenberg)"
 
     for letter in text_4:
             print(letter, end="", flush=True)
-            time.sleep(0.001)
+            time.sleep(.001)
 
     print("""                                                                                           
  @@@@@@ @@@@@@@   @@@@@@   @@@@@@@ @@@@@@@@    @@@@@@@   @@@@@@  @@@      @@@       @@@@@@ 
