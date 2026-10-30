@@ -783,7 +783,7 @@ Supervising Unit Location Manager	Richard Sharkey\
 Supervising Location Manager	Robin Murphy"
     for letter in text_1:
         print(letter, end="", flush=True)
-        time.sleep(0.001)
+        time.sleep(.001)
     print("\n")
 
     print("""             ___ . .  _                                                                                             
@@ -1059,8 +1059,8 @@ Lone Starr\
 Daphne \
 Daphne Zuniga\
 Princess Vespa\
-Dick Van Patten in Eight Is Enough (1977)\
-Dick Van Patten\
+---- Van Patten in Eight Is Enough (1977)\
+---- Van Patten\
 King Roland\
 George Wyner in Wildcats (1986)\
 George Wyner\
@@ -1091,7 +1091,7 @@ Leslie Bevis\
 Commanderette Zircon\
 Jim Jackman\
 Jim Jackman\
-Major Asshole\
+Major -------\
 Mike Pniewski\
 Mike Pniewski\
 Laser Gunner(as Michael Pniewski)\
@@ -1283,8 +1283,8 @@ Transporter Technician(uncredited)\
 Oliver Theess\
 Oliver Theess\
 Wedding Guest(uncredited)\
-Dick Warlock and Anne Bruner in Halloween II (1981)\
-Dick Warlock\
+---- Warlock and Anne Bruner in Halloween II (1981)\
+---- Warlock\
 Vulcan Pinch Guard Mylar(uncredited)\
 Jesse Wayne\
 Jesse Wayne\
@@ -1647,7 +1647,7 @@ animation cameraman (uncredited)\
 Lauren Vogt\
 dancing alien sculptor: ILM (uncredited)\
 Stunts\
-Dick Warlock\
+---- Warlock\
 stunt coordinator (as Richard Warlock) / stunt actor (uncredited)\
 Bob K. Cummings\
 stunt actor (uncredited)\
