@@ -1,3 +1,6 @@
+# BEFORE YOU PLAY THIS GAME YOU HAVE TO PUT THIS ( pip install pygame ) 
+# YOU ALSO HAVE TO HAVE THE SOUND FILES 
+
 import os
 import pygame
 import time
@@ -41,6 +44,9 @@ folder = os.path.dirname(os.path.abspath(__file__))
 
 music_file_9 = os.path.join(folder, "OST_Lord_Of_The_Rings_The_fellowship_of_the_rings_-_The_Bridge_Of_Khazad_Dum_(mp3.pm).mp3")
 
+folder = os.path.dirname(os.path.abspath(__file__))
+
+music_file_10 = os.path.join(folder, "Original_Ghostbusters_Theme_-_Ghost_Grnder_Heavy_Dance_Remix_(mp3.pm).mp3")
 name = input ("Enter your name before you start.\n>")
 def start_adventure():
     print (name + " is sitting and thinking to themself wondering what to do today")
@@ -388,7 +394,7 @@ def outside_4():
 
     if choice == "1":
         print(" you come face to face with darth vader and he force chokes you")
-        time.sleep()
+        
         pygame.mixer.music.load(music_file_5)
         pygame.mixer.music.play()
         play = input ("do you want to play again?")
@@ -418,7 +424,7 @@ def found_durian():
     choice = input (">")
 
     if choice == "1":
-        time.sleep()
+        
         pygame.mixer.music.load(music_file_2)
         pygame.mixer.music.play()
         print(" her hear a guy say heres jonny and than things fade to black")
@@ -430,7 +436,7 @@ def found_durian():
             pygame.mixer.music.stop()
             print ("Have a nice day")
     elif choice == "2":
-        time.sleep()
+        
         pygame.mixer.music.load(music_file_4)
         pygame.mixer.music.play()
         print(" you see a small doll with a knife that is laughing and vision begain to fade")
@@ -443,7 +449,7 @@ def found_durian():
             print ("Have a nice day")
     
     elif choice == "3":
-        time.sleep()
+        
         pygame.mixer.music.load(music_file_3)
         pygame.mixer.music.play()
         print(" and see a yellow bunny with a knfe in his hads and says i will always come back")
@@ -456,7 +462,6 @@ def found_durian():
             print ("Have a nice day")
 
     elif choice == "4":
-        time.sleep(3)
         pygame.mixer.music.load(music_file)
         pygame.mixer.music.play()
         print(" you see a stand selling lava chicken you get intised by the catchy song ")
@@ -522,11 +527,15 @@ def found_burger_king():
     choice = input (">")
 
     if choice == "1":
+        pygame.mixer.music.load(music_file_10)
+        pygame.mixer.music.play()
         print(" the ghost busters see you as a ghost and put you in ghost trap")
         play = input ("do you want to play again?")
         if play == "yes":
+            pygame.mixer.music.stop()
             start_adventure()
         else:
+            pygame.mixer.music.stop()
             print ("Have a nice day")
     elif choice == "2":
         print(" they say you are insane so they call the cops because they think you are high and you get 500 years of jail")
