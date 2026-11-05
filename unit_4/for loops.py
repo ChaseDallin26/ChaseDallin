@@ -21,3 +21,9 @@ for letters in word:
 print (vowel_sum)
 
 
+num = input ("give one number")
+num_1 = input ("give another one number")
+
+
+
+
