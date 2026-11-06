@@ -1,5 +1,6 @@
 count_down = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1,]
 list = [1, 2, 3, 4, 5]
+name = ["chase", "chance", "harper", "dane"]
 for numbers in count_down:
     print(numbers)
 for numbers in count_down:
@@ -21,9 +22,11 @@ for letters in word:
 print (vowel_sum)
 
 
-num = input ("give one number")
-num_1 = input ("give another one number")
+num = input ("give one number\n>")
 
 
+for i in range(1, 11):
+    print(num + " x " + str(i) + "=" + str(int(num) * i))
 
-
+for names in name:
+     print ("hello, " + names + "!")    
